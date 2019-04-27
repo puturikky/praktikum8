@@ -83,7 +83,7 @@
         <li><a href="<?php echo site_url('/petugas') ?>">Data Petugas</a></li>
         <li><a href="<?php echo site_url('/anggota') ?>">Data Anggota</a></li>
         <li><a href="<?php echo site_url('/buku') ?>">Data Buku</a></li>
-        <li><a href="<?php echo site_url('/peminjaman') ?>">Peminjaman Buku</a></li>
+        <li><a href="<?php echo site_url('/peminjaman') ?>">Peminjaman Buku </a></li>
       </ul>
     </section>
     <!-- /.sidebar -->
