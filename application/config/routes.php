@@ -49,6 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+<<<<<<< HEAD
 $route['default_controller'] = 'LoginController';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
@@ -57,6 +58,12 @@ $route['login'] = 'LoginController';
 $route['login/auth'] = 'LoginController/auth';
 $route['login/unauth'] = 'LoginController/unauth';
 
+=======
+$route['default_controller'] = 'PetugasController';
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;
+
+>>>>>>> 22eae7a6fcdc249ff6899600309c4def9e7e6743
 $route['buku'] = 'BukuController';
 $route['buku/create'] = 'BukuController/create';
 $route['buku/store'] = 'BukuController/store';

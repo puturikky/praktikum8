@@ -41,6 +41,7 @@
               <input type="text" name="nama" class="form-control" placeholder="Masukan nama..." required>
             </div>
             <div class="form-group">
+<<<<<<< HEAD
               <label>Username</label>
               <input type="text" name="username" class="form-control" placeholder="Masukan username..." required>
             </div>
@@ -56,6 +57,11 @@
               <label>Konfirmasi Password</label>
               <input type="password" name="konfirmasi_password" class="form-control" placeholder="Masukan konfirmasi password..." required>
             </div>
+=======
+              <label>Alamat</label>
+              <input type="text" name="alamat" class="form-control" placeholder="Masukan alamat..." required>
+            </div>
+>>>>>>> 22eae7a6fcdc249ff6899600309c4def9e7e6743
           </div>
         </div>
       </div>
@@ -75,15 +81,23 @@ $(function(){
       url : '<?php echo base_url("petugas/store");?>',
       data : dataForm,
       success : function(data){
+<<<<<<< HEAD
         data = $.parseJSON(data);
         if(data.status == 1){
+=======
+        if(data){
+>>>>>>> 22eae7a6fcdc249ff6899600309c4def9e7e6743
           $('.callout-success').fadeIn();
           setTimeout(function(){ 
           $('.callout-success').fadeOut("slow");
           }, 3000);
           $('#formInput')[0].reset();
         }else {
+<<<<<<< HEAD
           $('.callout-danger').find('p').html(data.message);
+=======
+          $('.callout-danger').find('p').html("Gagal menambah data");
+>>>>>>> 22eae7a6fcdc249ff6899600309c4def9e7e6743
           $('.callout-danger').fadeIn();
           setTimeout(function(){ 
           $('.callout-danger').fadeOut("slow");

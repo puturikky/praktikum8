@@ -38,6 +38,15 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
   <!-- jQuery 3 -->
+<<<<<<< HEAD
+=======
+  <style >
+    .btn-success
+    {
+      color: : blue !important;
+    }
+  </style>
+>>>>>>> 22eae7a6fcdc249ff6899600309c4def9e7e6743
   <script src="<?php echo base_url(); ?>assets/AdminLTE/bower_components/jquery/dist/jquery.min.js"></script>
 </head>
 <body class="hold-transition skin-blue-light sidebar-mini">
@@ -45,7 +54,11 @@
 
   <header class="main-header">
     <!-- Logo -->
+<<<<<<< HEAD
     <a href="#" class="logo">
+=======
+    <a href="<?php echo base_url(); ?>assets/AdminLTE/index2.html" class="logo">
+>>>>>>> 22eae7a6fcdc249ff6899600309c4def9e7e6743
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>P</b></span>
       <!-- logo for regular state and mobile devices -->
@@ -57,6 +70,7 @@
       <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
         <span class="sr-only">Toggle navigation</span>
       </a>
+<<<<<<< HEAD
 
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
@@ -80,6 +94,8 @@
           </li>
         </ul>
       </div>
+=======
+>>>>>>> 22eae7a6fcdc249ff6899600309c4def9e7e6743
     </nav>
   </header>
   <!-- Left side column. contains the logo and sidebar -->
@@ -92,11 +108,16 @@
           <img src="<?php echo base_url(); ?>assets/AdminLTE/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
+<<<<<<< HEAD
           <p><?php echo $this->session->userdata('username'); ?></p>
+=======
+          <p>puturikky</p>
+>>>>>>> 22eae7a6fcdc249ff6899600309c4def9e7e6743
         </div>
       </div>
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
+<<<<<<< HEAD
         <li class="header"></li>
         <li><a href="<?php echo site_url('/petugas') ?>"><span>Data Petugas</span></a></li>
         <li><a href="<?php echo site_url('/anggota') ?>"><span>Data Anggota</span></a></li>
@@ -104,6 +125,12 @@
         <li><a href="<?php echo site_url('/peminjaman') ?>"><span>Peminjaman Buku</span></a></li>
         <li><a href="<?php echo site_url('login/unauth') ?>"><span>Sign Out</span></a></li>
 
+=======
+        <li><a href="<?php echo site_url('/petugas') ?>">Data Petugas</a></li>
+        <li><a href="<?php echo site_url('/anggota') ?>">Data Anggota</a></li>
+        <li><a href="<?php echo site_url('/buku') ?>">Data Buku</a></li>
+        <li><a href="<?php echo site_url('/peminjaman') ?>">Peminjaman Buku </a></li>
+>>>>>>> 22eae7a6fcdc249ff6899600309c4def9e7e6743
       </ul>
     </section>
     <!-- /.sidebar -->
@@ -114,6 +141,7 @@
     <?php echo $contents; ?>
   </div>
   <!-- /.content-wrapper -->
+<<<<<<< HEAD
   
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
@@ -308,6 +336,8 @@
   <!-- Add the sidebar's background. This div must be placed
        immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
+=======
+>>>>>>> 22eae7a6fcdc249ff6899600309c4def9e7e6743
 </div>
 <!-- ./wrapper -->
 <!-- jQuery UI 1.11.4 -->

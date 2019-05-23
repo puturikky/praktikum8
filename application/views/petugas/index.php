@@ -1,6 +1,7 @@
 <?php
   defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+<<<<<<< HEAD
 <!-- Content Header (Page header) -->
 <section class="content-header">
   <h1>
@@ -13,13 +14,19 @@
   </ol>
 </section>
 
+=======
+>>>>>>> 22eae7a6fcdc249ff6899600309c4def9e7e6743
 <!-- Main content -->
 <section class="content">
   <!-- List Data -->
   <div class="box">
     <div class="box-header with-border">
       <h3 class="box-title">List Petugas</h3>
+<<<<<<< HEAD
       <a href="<?php echo base_url(); ?>petugas/create" class="btn btn-success btn-linking">Tambah Data Petugas</a>
+=======
+      <a href="<?php echo base_url(); ?>petugas/create" class="btn btn-success btn-linking">Tambah Petugas</a>
+>>>>>>> 22eae7a6fcdc249ff6899600309c4def9e7e6743
       <div class="box-tools pull-right">
           <button type="button" class="btn btn-box-tool"  data-toggle="tooltip" title="Collapse">
           <i class="fa fa-refresh" onclick="refreshTable('#tableData')"></i></button>

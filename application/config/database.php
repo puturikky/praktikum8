@@ -78,7 +78,11 @@ $db['default'] = array(
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
+<<<<<<< HEAD
 	'database' => 'db_perpustakaan',
+=======
+	'database' => 'perpustakaan',
+>>>>>>> 22eae7a6fcdc249ff6899600309c4def9e7e6743
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
